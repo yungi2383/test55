@@ -1,4 +1,5 @@
 import express from "express";
+import dotenv from "dotenv/config.js";
 // * 왜 여기 {Router} 로 하면 오류나는 거지... 궁금하당
 import Router from "./routes/posts.router.js";
 
